@@ -1,6 +1,6 @@
 # HAHA-Separator
 
-HAHA-Separator is a Python program for separating an inputted 'Haha' to 'Ha ha' regardless of the format.  The program will be used to improve the clarity and accuracy of communication making it easier for people to understand each other's humor and convey their own.
+HAHA-Separator is a Python program for separating an inputted 'Haha' to 'Ha ha' regardless of the format.The program can be used to imitate how Sir Arvic say "haha" in chat conversations. You can use your regular sentence construction in the chat and add as many "haha's" as you want, but the message will appear as if it was sent by Sir Arvic.
 
 ## Setup
 
