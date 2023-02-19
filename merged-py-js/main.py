@@ -10,7 +10,7 @@ def haha_separator(strng):
         result =''.join(haha[x] if haha[x] != '' else ' ' for x in range(len(haha)))
         return result
 
-def add_task(*ags, **kws):
+def convert(*ags, **kws):
     if not message.element.value:
         return None
 
@@ -21,8 +21,8 @@ def add_task(*ags, **kws):
 
     message.clear()
 
-def add_task_event(e):
+def convert_event(e):
     if e.key == "Enter":
-        add_task()
+        convert()
 
-message.element.onkeypress = add_task_event
+message.element.onkeypress = convert_event
