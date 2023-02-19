@@ -1,5 +1,4 @@
 import re
-tasks = []
 
 message_template = Element("message-template").select(".msg", from_content=True)
 message_container = Element("message-container")
